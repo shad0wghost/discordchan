@@ -15,7 +15,7 @@ parser.add_argument("--time", help="Time between scans Defualt: 30mins", default
 args = parser.parse_args()
 
 webhook = DiscordWebhook(url=str(args.webhook), username=str(args.user))
-postwaittime = 2
+postwaittime = 10
 refreshtime = args.time * 60
 
 
