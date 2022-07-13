@@ -22,6 +22,3 @@ COPY ./discord_chan.py /discord_chan.py
 
 ENTRYPOINT ["python3", "/discord_chan.py"]
 CMD ["-h"]
-
-
-#docker run -v ~\Desktop\discord-fun --rm -i dischan
