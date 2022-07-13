@@ -6,4 +6,4 @@ Use with Docker :D
 
 1. cd into repo 
 2. docker build --no-cache . -t discordchan
-3. docker run --rm -it dischan --webhook https://yourdiscordwebhookherer --user toxicbot
+3. docker run --rm -it dischan --webhook https://yourdiscordwebhookhere --user toxicbot
